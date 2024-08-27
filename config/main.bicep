@@ -1,6 +1,6 @@
 @minLength(3)
 @maxLength(11)
-param namePrefix string = "gpadmin"
+param namePrefix string = "gapaz"
 
 param location string = resourceGroup().location
 
