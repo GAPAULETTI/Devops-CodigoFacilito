@@ -22,5 +22,6 @@ jobs:
           appSourcePath: ${{ github.workspace }}
           acrName: ${{ vars.AZURE_PREFIX }}acr
           resourceGroup: ${{ vars.AZURE_RG }}
+          template: ${{ github.workspace }}/config/main.bicep
           containerAppName: ${{ vars.AZURE_PREFIX }}containerapp
           containerAppEnvironment: ${{ vars.AZURE_PREFIX }}containerappenvironment
